@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>hotmeal</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/hotmeal.png" alt="" width="124" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-secondary px-4 mx-4"
+                href="#contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header position-relative  overflow-hidden">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star-2 position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="mt-6">
+              <h1 class="xl-text">
+                The <span class="text-primary">Perfect</span> Pizza Space
+              </h1>
+              <p class="lead mb-4">
+                where every bite is a burst of flavor, from sizzling pizzas to juicy burgers, perfect for any craving!
+              </p>
+              <a href="#introduction" class="btn btn-primary btn-lg m-2">
+                Order Now
+              </a>
+              <a href="#contact" class="btn btn-outline-secondary btn-lg m-2">
+                Contact Us
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container">
+              <img src="images/header.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="d-flex align-items-center hero-section " id="offer" >
+      <div class="container">
+          <div class="row">
+              <!-- Text Column -->
+              <div class="col-md-6">
+                  <div>
+                      <h5 class="welcome-text" >WELCOME FRESHEAT</h5>
+                      <h1 class="special-food-title" >TODAY SPECIAL FOOD</h1>
+                      <p class="limited-offer">Limited Time Offer</p>
+                      <a href="#" class="btn order-now-btn" >Order Now</a>
+                  </div>
+              </div>
+              <!-- Image Column -->
+              <div class="col-md-6 position-relative">
+                  
+                 
+                  <!-- Pizza Image -->
+                  <img src="/images/hero.png" alt="Pizza" class="pizza-img">
+              </div>
+          </div>
+      </div>
+  </section>
+    
+    <!-- Introduction -->
+    <section class="py-5 " id="bestseller">
+      <div class="container text-center "   >
+          <!-- Popular Dishes Label -->
+          <div class="mb-2">
+              <span class="badge bg-warning text-dark py-2 px-3" style="font-size: 1rem;">Popular Dishes</span>
+          </div>
+          
+          <!-- Best Selling Dishes Title -->
+          <h2 class="mb-4">Best Selling Dishes</h2>
+
+          <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+              <!-- Card 1: Chicken Fried Rice -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="/images/dishes1_1.png" class="card-img-top p-3" alt="Chicken Fried Rice">
+                      <div class="card-body">
+                          <h5 class="card-title">Chicken Fried Rice</h5>
+                          <p class="card-text">The Registration Fee</p>
+                          <h6 class="text-danger">$100.99</h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 2: Chinese Pasta -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="/images/dishes1_2.png" class="card-img-top p-3" alt="Chinese Pasta">
+                      <div class="card-body">
+                          <h5 class="card-title">Chinese Pasta</h5>
+                          <p class="card-text">The Registration Fee</p>
+                          <h6 class="text-danger">$15.99</h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 3: Chicken Pizza -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="/images/dishes1_3.png" class="card-img-top p-3" alt="Chicken Pizza">
+                      <div class="card-body">
+                          <h5 class="card-title">Chicken Pizza</h5>
+                          <p class="card-text">The Registration Fee</p>
+                          <h6 class="text-danger">$26.99</h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 4: Chicken Noodles -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="/images/dishes1_4.png" class="card-img-top p-3" alt="Chicken Noodles">
+                      <div class="card-body">
+                          <h5 class="card-title">Chicken Noodles</h5>
+                          <p class="card-text">The Registration Fee</p>
+                          <h6 class="text-danger">$39.00</h6>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Card 5: Grilled Chicken -->
+              <div class="col">
+                  <div class="card h-100">
+                      <img src="/images/dishes1_5.png" class="card-img-top p-3" alt="Grilled Chicken">
+                      <div class="card-body">
+                          <h5 class="card-title">Grilled Chicken</h5>
+                          <p class="card-text">The Registration Fee</p>
+                          <h6 class="text-danger">$20.99</h6>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <!-- View All Items Button -->
+          <div class="mt-4">
+              <a href="#" class="btn btn-danger">View All Items</a>
+          </div>
+      </div>
+    </section>
+    <!-- Details 1 -->
+    <section
+      id="details"
+      class="details position-relative  overflow-hidden"
+    >
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="image-container d-flex justify-content-center">
+              <img src="images/details-1.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="mt-4">
+              <h2 class="mb-4 custh2">
+                Customize <span class="text-primary">Your</span> Perfect Meal
+              </h2>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Our approach ensures that every dish is crafted to suit your individual taste and preferences. No two meals are the same!
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    We pay attention to every ingredient, ensuring that the flavors, presentation, and freshness create a delightful and memorable dining experience.
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Our team of expert chefs guarantees that your meal will be a reflection of your unique cravings and culinary desires.
+                  </p>
+                </li>
+                <li class="d-flex mb-3">
+                  <i class="fas fa-check text-primary fa-2x mx-4"></i>
+                  <p>
+                    Whether you’re craving something savory, spicy, or sweet, we’ll create a dish that matches your exact taste.
+                  </p>
+                </li>
+              </ul>
+              <a href="" class="btn btn-primary " id="custmar">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+
+   
+
+    <!-- best seller -->
+   
+
+  <section class="menu-section py-5" id="menu">
+    <div class="container">
+        <!-- Menu Header -->
+        <div class="text-center mb-4">
+            <h5 style="color: orange; font-weight: bold;">FOOD MENU</h5>
+            <h2 style="font-weight: bold;">Fresheat Foods Menu</h2>
+        </div>
+
+        <!-- Category Tabs -->
+        <ul class="nav nav-pills justify-content-center mb-4">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Fast Food</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Drink & Juice</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Chicken Pizza</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Fresh Pasta</a>
+            </li>
+        </ul>
+        <hr>
+
+        <!-- Food Menu Items -->
+        <div class="row">
+            <!-- Left Column (First 6 Items) -->
+            <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_1.png" alt="Chinese Pasta" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold; color: red;">Chinese Pasta</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$15.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_2.png" alt="Chicken Fried Rice" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Chicken Fried Rice</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$25.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_3.png" alt="Chicken Pizza" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Chicken Pizza</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$115.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_4.png" alt="Chicken Noodles" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Chicken Noodles</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$154.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_5.png" alt="Grilled Chicken" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Grilled Chicken</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$55.99</span>
+                </div>
+            </div>
+
+            <!-- Right Column (Next 6 Items) -->
+            <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_6.png" alt="Egg And Cucumber" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Egg And Cucumber</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$65.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_7.png" alt="Chicken White Rice" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Chicken White Rice</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$135.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_8.png" alt="Spatial Barger" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Spatial Barger</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$95.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_9.png" alt="Vegetables Burger" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Vegetables Burger</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$75.99</span>
+                </div>
+
+                <div class="d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="/images/menuThumb1_10.png" alt="Brief Chicken" class="rounded-circle me-3" style="width: 60px; height: 60px;">
+                        <div>
+                            <h6 style="font-weight: bold;">Brief Chicken</h6>
+                            <p class="text-muted m-0">It's a testament to our...</p>
+                        </div>
+                    </div>
+                    <span style="font-weight: bold;">$44.99</span>
+                </div>
+            </div>
+           
+        </div>
+        <hr>
+    </div>
+</section>
+
+
+
+ <!-- Services -->
+ <section id="services" class="services bg-light pt-5 pb-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="text-container text-center text-lg-start">
+          <h2>
+            <span class="text-secondary">Services</span> that we offer
+          </h2>
+          <p>
+            Our food app makes dining easy by letting users discover nearby restaurants, order meals for delivery or pickup, and track their orders in real-time. With personalized recommendations, exclusive discounts, and support for special dietary needs, it ensures a convenient and enjoyable dining experience.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="row mb-4">
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-pizza-slice fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">Freshly Cooked Meals</p>
+          </div>
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-burger fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">Hot and Crispy Meals</p>
+          </div>
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-cake-candles fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">Special Events and Promotions</p>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-phone fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">Online Ordering</p>
+          </div>
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-location-dot  fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">all over city</p>
+          </div>
+          <div
+            class="col-md-4 d-flex flex-column align-items-center text-center"
+          >
+            <i class="fa-solid fa-motorcycle fa-4x text-secondary mb-2"></i>
+            <p class="fs-5 fw-bold">Delivery Service</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Stats -->
+    <section id="stats" class="stats container-fluid">
+      <div class="row my-2">
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="1008"></h2>
+          <p>Happy Customers</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="285"></h2>
+          <p>total item</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="159"></h2>
+          <p>Good Reviews</p>
+        </div>
+
+        <div class="col-md-3 col-sm-6 text-center">
+          <h2 class="counter xl-text" data-target="40"></h2>
+          <p>Total Cheif</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials bg-light pt-2 pb-4">
+      <div id="testimonialCarousel" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-1.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “The food here is always fresh and flavorful, making every meal a treat. The service is prompt, and the portions are generous. Perfect for a satisfying and quick dining experience.”
+              </p>
+              <div class="fw-bold fs-5 mt-4">Maleah Andrade</div>
+              <div>General Food Manager</div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-2.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “I’m impressed with the consistent quality and speedy delivery. Every dish is packed with taste and arrives right on time. A reliable choice for great food any day of the week.”
+              </p>
+              <div class="fw-bold fs-5 mt-4">Tomas Cross</div>
+              <div>Food vlogger</div>
+            </div>
+          </div>
+          <!-- Slide 1 -->
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img
+                src="images/testimonial-3.jpg"
+                alt=""
+                class="rounded-circle"
+                width="120"
+              />
+              <p class="w-50 my-4 fst-italic fs-4 mb-4">
+                “Every visit here has been a pleasure. The meals are always delicious and perfectly cooked, and the staff is friendly and efficient. It’s my top pick for a quick and enjoyable meal out.”
+              </p>
+              <div class="fw-bold fs-5 mt-4">Julien Morgan</div>
+              <div>Top Chief</div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="prev"
+        >
+          <i class="fas fa-arrow-circle-left fa-3x text-secondary"></i>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimonialCarousel"
+          data-bs-slide="next"
+        >
+          <i class="fas fa-arrow-circle-right fa-3x text-secondary"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact py-6 position-relative">
+      <img
+        src="images/decoration-star.svg"
+        alt=""
+        class="decoration-star position-absolute"
+      />
+
+      <div class="container position-relative z-3">
+        <div class="row">
+          <div class="col-lg-6 d-none d-md-block">
+            <div class="image-container">
+              <img src="images/contact.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text-container">
+              <h2>Tell Us What To Improve</h2>
+
+              <form>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <div class="mb-3">
+                  <textarea
+                    class="form-control"
+                    placeholder="Enter message"
+                    rows="8"
+                  ></textarea>
+                </div>
+                <div class="d-grid gap-2">
+                  <input
+                    type="submit"
+                    value="Send"
+                    class="btn btn-primary btn-block"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-light py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6 class="text-secondary">About hotmeal</h6>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Molestiae, possimus! Similique asperiores aliquid accusantium
+              laudantium.
+            </p>
+          </div>
+          <div class="col-md-4 my-3">
+            <h6 class="text-secondary">Links</h6>
+            <ul class="list-unstyled">
+              <li>
+                Important: <a href="#">Terms & Conditions</a>,
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li>
+                Useful: <a href="#">Icon Library</a>,
+                <a href="#">Illustrations</a>
+              </li>
+              <li>
+                Menu: <a href="#">Home</a>, <a href="#details">Details</a>,
+                <a href="#services">Services</a>, <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-dark mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-dark mx-2"></i>
+              </a>
+            </div>
+            <p >
+              We would love to hear from you
+              <a class="text-light" href="mailto:contact@site.com"
+                ><strong >: contact@gmail.com</strong></a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id="to-top" class="to-top-btn">
+      <img src="images/up-arrow.png" alt="" />
+    </button>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

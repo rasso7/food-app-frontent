@@ -1,0 +1,251 @@
+.xl-text {
+  font-size: 75px;
+}
+
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+}
+
+.header {
+  background-image: url("/images/popular.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header .decoration-star {
+  top: 80px;
+  left: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.header .decoration-star-2 {
+  top: 80px;
+  right: -200px;
+  width: 500px;
+  opacity: 0.7;
+}
+
+.navbar {
+  transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.details .decoration-star {
+  left: -200px;
+  width: 500px;
+  opacity: 0.4;
+}
+
+.contact .decoration-star {
+  left: -300px;
+  width: 600px;
+}
+
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-color: #1d1d21;
+}
+
+.to-top-btn img {
+  margin-bottom: 0.25rem;
+  width: 18px;
+}
+
+.show {
+  opacity: 1;
+}
+
+#details {
+  background: url("/images/back.png") no-repeat center/cover;
+  color: white;
+  position: relative;
+}
+
+.custh2 {
+  color: #fff;
+}
+
+#custmar {
+  margin-bottom: 25px; /* Adds space below the button */
+}
+
+@media (max-width: 990px) and (min-width: 766px) {
+  .image-container img {
+    max-width: 70%; /* Adjust the size of the image */
+    height: auto;
+  }
+}
+#bestseller {
+  background-image: url("/images/popular.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-section {
+  background: url("/images/back.png") no-repeat center/cover;
+  height: 70vh;
+  color: white;
+  position: relative;
+}
+
+.menu-section {
+  background-image: url("/images/popular2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer {
+  background: url("/images/back.png") no-repeat center/cover;
+  color: white;
+  position: relative;
+}
+
+/* Text styling */
+.welcome-text {
+  color: red;
+  font-weight: bold;
+}
+
+.special-food-title {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.limited-offer {
+  color: orange;
+  font-size: 1.2rem;
+}
+
+#stats {
+  background: #f4f1ea;
+  padding: 30px;
+}
+
+#contact {
+  background: #f4f1ea;
+}
+
+/* Button styling */
+.order-now-btn {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+/* Pizza image styling */
+.pizza-img {
+  max-width: 600px;
+  position: absolute;
+  right: 50px;
+  bottom: 0;
+}
+
+/* Responsive for specific size: 1402px * 857px */
+@media (max-width: 1404px) and (max-height: 857px) {
+  .special-food-title {
+    font-size: 2rem;
+  }
+  .limited-offer {
+    font-size: 1rem;
+  }
+  /* Adjusting the image size and position */
+  .pizza-img {
+    max-width: 100%; /* Reduce image width */
+    right: 2px; /* Move the image further away from the text */
+    bottom: 0;
+  }
+  /* Ensure space between text and image */
+  .col-md-6.text-center.text-md-start {
+    margin-bottom: 2rem; /* Add bottom margin to the text column */
+  }
+  .order-now-btn {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+}
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .special-food-title {
+    font-size: 2.5rem;
+  }
+  .pizza-img {
+    max-width: 100%;
+    position: static;
+  }
+}
+@media (max-width: 576px) {
+  .hero-section {
+    height: auto;
+    padding: 2rem 0;
+  }
+  .special-food-title {
+    font-size: 2rem;
+  }
+  .pizza-img {
+    max-width: 100%;
+    height: auto;
+    position: static;
+  }
+}
+@media (max-width: 992px) {
+  .xl-text {
+    font-size: 50px;
+  }
+  .navbar .btn-outline-secondary {
+    margin-top: 20px;
+  }
+  .header {
+    margin-top: 0px !important;
+    text-align: center;
+  }
+  .header .decoration-star {
+    left: -100px;
+    width: 250px;
+  }
+  .header .decoration-star-2 {
+    right: -100px;
+    width: 250px;
+  }
+  .header .image-container {
+    margin-top: 30px;
+  }
+  .services .col-md-4 {
+    border-bottom: 1px #ccc solid;
+    margin: 10px 0;
+  }
+  .details-2 .decoration-star {
+    top: 300px;
+  }
+}
